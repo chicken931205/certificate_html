@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('/fonts/MinionPro-Regular.woff2') format('woff2'),
+        url('/fonts/MinionPro-Regular.woff') format('woff'),
+        url('/fonts/MinionPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('/fonts/MinionPro-Bold.woff2') format('woff2'),
+        url('/fonts/MinionPro-Bold.woff') format('woff'),
+        url('/fonts/MinionPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Minion Pro', serif;
+}
+
+.cert {
+    max-width: 1200px;
+    position: relative;
+    background: url(certi-back.png)
+    no-repeat center center / cover;
+}
+
+.horizontal-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;    
+}
+
+.certi-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    margin: 0;
+}
+
+.certi-title p.p1 {
+    font-size: 78px;
+    margin: 0;
+}
+
+.certi-title p.p2 {
+    font-size: 53px;
+    margin: 0;
+}
+
+.certi-present {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certi-present p {
+    text-align: center;
+    margin: 0;
+}
+
+.certi-present p.p1 {
+    font-size: 24px;
+}
+
+.certi-present p.name {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.certi-present p.level {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.certi-content p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.persons {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.president,
+.director,
+.vice-president {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.president .p1,
+.director .p1,
+.vice-president .p1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.president .p2,
+.director .p2,
+.vice-president .p2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.valid-date{
+    position: absolute;
+    color: #000;
+    margin: 0;
+    bottom: 5%;
+    right: 23%;
+}
+
+.valid-date p.date {
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+.valid-date p {
+    margin: 0;
+}
