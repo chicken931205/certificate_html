@@ -94,7 +94,17 @@
     margin-top: 5px;
 }
 
+.logo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .right-bottom {
+    position: absolute;
+    right: 0px;
+    top: 75px;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -115,4 +125,14 @@
 
 .valid-date p {
     margin: 0;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .certi-title p.p1 {
+        font-size: 68px;
+    }
+    
+    .certi-title p.p2 {
+        font-size: 43px;
+    }
 }
