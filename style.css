@@ -135,10 +135,76 @@
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
     .certi-title p.p1 {
-        font-size: 68px;
+        font-size: 64px;
     }
     
     .certi-title p.p2 {
-        font-size: 43px;
+        font-size: 39px;
     }
+
+    .certi-present p.p1 {
+        font-size: 22px;
+    }
+
+    .certi-present p.name {
+        font-size: 49px;
+    }
+    
+    .certi-present p.level {
+        font-size: 23px;
+    }
+    
+    .persons {
+        margin: 10px;
+    }
+    .certi-content {
+        margin: 10px;
+    }
+
+    .certi-content p {
+        font-size: 22px;
+    }
+
+    .right-bottom {
+        top: 75px;
+    }
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .certi-title p.p1 {
+        font-size: 59px;
+    }
+    
+    .certi-title p.p2 {
+        font-size: 35px;
+    }
+
+    .certi-present p.p1 {
+        font-size: 20px;
+    }
+
+    .certi-present p.name {
+        font-size: 40px;
+    }
+    
+    .certi-present p.level {
+        font-size: 20px;
+    }
+    
+    .persons {
+        margin: 10px;
+    }
+    .certi-content {
+        margin: 10px;
+    }
+
+    .certi-content p {
+        font-size: 20px;
+    }
+
+    .right-bottom {
+        top: 75px;
+    }
+    
 }
